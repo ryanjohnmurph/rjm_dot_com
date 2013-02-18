@@ -33,6 +33,7 @@
 			$data = array(
 				'title' => $this->input->post('title'),
 				'slug' => $slug,
+				'img' => $img,
 				'text' => $this->input->post('text'),
 				'datetime' => $mysqldate
 			);

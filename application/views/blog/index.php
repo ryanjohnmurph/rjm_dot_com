@@ -12,6 +12,7 @@
 		<?php
 		foreach ($blog as $blog_item): 
 		?>
+		<div id="post_wrapper">
 			<?php $phpdate = new DateTime($blog_item['datetime']); $dateformat = $phpdate->format('H:i a, m/d/Y '); ?>
 			
 			<div id="post_title"><?php echo $blog_item['title'] ?></div> <div id="post_date"><?php echo 'at '.$dateformat ?></div>
@@ -22,7 +23,7 @@
 			<p>
 				<a href="blog/<?php echo $blog_item['slug'] ?>">View post</a>
 			</p>
-
+		</div>
 		<?php 
 		endforeach 
 		?>

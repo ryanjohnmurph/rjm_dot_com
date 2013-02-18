@@ -12,7 +12,9 @@ a:hover {
 #body {
 	margin: auto;
 	width: 900px;
-	background: #EEEEEE;
+	background: #f2E9Ec;
+	/* background-image: url('../img/grey_dots.png'); 
+	background-repeat: repeat-x repeat-y; */
 }
 
 #header {
@@ -103,19 +105,37 @@ div.blog_submit {
 *Blog Posts (views/blog/index.php)
 */
 
-#blog_wrapper {
+
+
+#post_wrapper {
 	width: 75%;
-	background-color: #FFFFFF;
+	background-color: #fff;
+	/* box-shadow: 0px 0px 6px 0px #BBB; */
+	border: 1px solid #CCC; 
+	margin-bottom: 20px;
 }
 
 #post_title {
-	font-size: 30px;
+	font-size: 32px;
 	font-weight: bold;
-	font-family: Cambria;
+	font-family: Century Gothic;
 	/* background-color: maroon; */
 	color: #222222;
+	padding-left: 30px;
+	padding-top: 22px;
+	padding-right: 30px;
+}
+
+#post_date {
+	font-size: 14px;
+	padding-left: 30px;
+	padding-top: 10px;
 }
 
 #post_main{
-	font-family: Arial;
+	font-family: Verdana;
+	font-size: 13px;
+	line-height: 1.7;
+	padding-left: 30px;
+	padding-right: 30px;
 }

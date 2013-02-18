@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/rjm/';
+$config['base_url']	= 'http://localhost/rjm_dot_com/';
 
 // config.php
 $config['asset_path'] = 'assets/css/';
